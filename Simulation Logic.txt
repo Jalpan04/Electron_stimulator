@@ -1,0 +1,19 @@
+### Electron Simulation Logic
+
+#### 1. Initialization
+- Pygame starts with an 800x600 screen.
+- User inputs the number of electrons.
+- Each electron has a random color and starts at the center.
+
+#### 2. Motion and Repulsion
+- Electrons repel each other using Coulomb-like force: `F = CHARGE / distance^2`.
+- Acceleration is computed from forces, updating velocity and position.
+- Damping (`0.99`) prevents infinite acceleration.
+
+#### 3. Boundary Handling
+- Electrons bounce off walls to stay within bounds.
+
+#### 4. Visualization
+- Electrons are drawn as circles with trails.
+- Screen updates at 60 FPS until the user exits.
+
