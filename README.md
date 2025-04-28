@@ -2,7 +2,7 @@
 
 A physics-based particle simulation demonstrating electron repulsion behaviors visualized with Pygame.
 
-![Electron Simulator Demo](sim)
+![Electron Simulator Demo](sim.gif)
 
 ## Overview
 
